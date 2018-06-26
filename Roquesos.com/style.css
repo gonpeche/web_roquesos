@@ -8,7 +8,6 @@
 }
 
 body {
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'Julius Sans One', sans-serif;
 }
 
@@ -40,12 +39,9 @@ body {
   font-size: 12px;
   opacity: 1;
   transition: all .2s ease-in-out;
-  font-family: 'Julius Sans One', sans-serif;
-
 }
 
 nav p {
-  font-family: 'Julius Sans One', sans-serif;
   font-size: 1.4rem;
   float: left;
   padding-top: 14px;
@@ -103,7 +99,6 @@ h1 {
   margin: 0;
   width: 100%;
   font-weight: 100;
-  font-family: 'Julius Sans One', sans-serif;
 }
 
 h2 {
@@ -132,6 +127,16 @@ hr {
 /* NOSOTROS */
 /* -------------------- */
 
+.nosotros {
+  position: relative;
+  height: 100vh;
+  color: #f3f2f2;
+  text-transform: lowercase;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(resources/img/nosotros8.jpg);
+}
+section {
+  position: relative;
+}
 h3 {
   color: #fff;
   text-shadow: none;
@@ -140,19 +145,7 @@ h3 {
   text-align: center;
   padding: 5%;
   text-transform: uppercase;
-  font-family: 'Julius Sans One', sans-serif;
   text-shadow: 3px 3px 8px #000000;
-
-}
-
-.nosotros {
-  height: 100vh;
-  /* background-color: #fff; */
-  /* font-weight: 300; */
-  color: #f3f2f2
-  text-transform: lowercase;
-  background-image: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0)), url(resources/img/nosotros8.jpg)
-
 }
 
 h3:after {
@@ -162,91 +155,22 @@ h3:after {
   content: "";
   width: 150px;
   margin: 0 auto;
-  margin-top: 30px
+  margin-top: 30px;
+}
+
+
+.nosotros-historia {
+  position: relative;
+  width: 100%;
 }
 
 .nosotros li {
   list-style-type: none;
-  font-size: 150%;
-  font-weight: 400;
-  color: #fff;
-}
-
-.box img {
-  width: 100%;
-  height: 400px;
-}
-
-/* -------------------- */
-/* COLUMNAS */
-/* -------------------- */
-
-/*  SECTIONS  */
-.section {
-	clear: both;
-	padding: 0px;
-	margin: 0px;
-}
-
-/*  COLUMN SETUP  */
-.col {
-	display: block;
-	float:left;
-	margin: 1% 0 1% 5%;
-}
-.col:first-child { margin-left: 0; }
-
-/*  GROUPING  */
-.group:before,
-.group:after { content:""; display:table; }
-.group:after { clear:both;}
-.group { zoom:1; /* For IE 6/7 */ }
-/*  GRID OF TWO  */
-.span_2_of_2 {
-	width: 100%;
-}
-.span_1_of_2 {
-	width: 47.5%;
-}
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.col { 
-		margin: 1% 0 1% 0%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.span_2_of_2, .span_1_of_2 { width: 100%; }
+  font-size: 23px;
+  text-shadow: 3px 3px 8px #000000;
+  color: rgb(226, 220, 220);
+  padding-top: 22px;
+  text-shadow: 4px;
 }
 
 
-/*  GRID OF FOUR  */
-.span_4_of_4 {
-	width: 100%;
-}
-.span_3_of_4 {
-	width: 74.75%;
-}
-.span_2_of_4 {
-	width: 49.5%;
-}
-.span_1_of_4 {
-	width: 24.25%;
-}
-
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
-	.col {  margin: 1% 0 1% 0%; }
-	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
-}
-
-
-/* -------------------- */
-/* PRODUCTOS */
-/* -------------------- */
-
-.producto {
-  height: 100vh;
-}
