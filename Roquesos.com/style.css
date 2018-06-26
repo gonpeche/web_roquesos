@@ -1,0 +1,252 @@
+/* -------------------- */
+/* BASIC SETUP */
+/* -------------------- */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/* -------------------- */
+/* NAV BAR */
+/* -------------------- */
+.nav  {
+  position: fixed;
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  z-index: 2;
+
+}
+.nav li {
+  display: block;
+  float: right;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  color: #ffffff;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  opacity: 1;
+  transition: all .2s ease-in-out;
+  font-family: 'Julius Sans One', sans-serif;
+
+}
+
+nav p {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 1.4rem;
+  float: left;
+  padding-top: 14px;
+  padding-left: 25px;
+  color: #ffffff;
+}
+
+.nav li:hover {
+  color: rgb(218, 147, 42);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* -------------------- */
+/* HEADER */
+/* -------------------- */
+
+
+header {
+  background-image: linear-gradient(to right, rgba(0,0,0,0.0), rgba(0,0,0,0)), url(resources/img/fondo2.jpg);
+  min-height: 100vh;
+  min-width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+}
+
+#overlay {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  top: 0; 
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(85, 87, 88, 0.2);
+  z-index: 1; 
+}
+.headerBlock {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+}
+
+h1,
+h2 {
+  color: #fff;
+  text-align: center;
+  text-shadow: 3px 3px 8px #000000;
+}
+
+h1 {
+  font-size: 82px;
+  margin: 0;
+  width: 100%;
+  font-weight: 100;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: 3.0px;
+  text-transform: uppercase;
+  padding: 10px 0;
+  margin-top: 3px;
+  width: 100%;
+  
+}
+
+hr {
+  border: none;
+  height: 20px;
+  width: 46%;
+  height: 48px;
+  margin-top: 0;
+  border-bottom: 1.2px solid #fff;
+  box-shadow: 0 18px 27px -19px black;
+  margin: -34px auto 11px
+}
+
+/* -------------------- */
+/* NOSOTROS */
+/* -------------------- */
+
+h3 {
+  color: #fff;
+  text-shadow: none;
+  font-size: 300%;
+  letter-spacing: 4px;
+  text-align: center;
+  padding: 5%;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+  text-shadow: 3px 3px 8px #000000;
+
+}
+
+.nosotros {
+  height: 100vh;
+  /* background-color: #fff; */
+  /* font-weight: 300; */
+  color: #f3f2f2
+  text-transform: lowercase;
+  background-image: linear-gradient(to left, rgba(0,0,0,0.9), rgba(0,0,0,0)), url(resources/img/nosotros8.jpg)
+
+}
+
+h3:after {
+  display: block;
+  height: 2px;
+  background-color: rgb(218, 147, 42);
+  content: "";
+  width: 150px;
+  margin: 0 auto;
+  margin-top: 30px
+}
+
+.nosotros li {
+  list-style-type: none;
+  font-size: 150%;
+  font-weight: 400;
+  color: #fff;
+}
+
+.box img {
+  width: 100%;
+  height: 400px;
+}
+
+/* -------------------- */
+/* COLUMNAS */
+/* -------------------- */
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 5%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 47.5%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col { 
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+
+/*  GRID OF FOUR  */
+.span_4_of_4 {
+	width: 100%;
+}
+.span_3_of_4 {
+	width: 74.75%;
+}
+.span_2_of_4 {
+	width: 49.5%;
+}
+.span_1_of_4 {
+	width: 24.25%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
+}
+
+
+/* -------------------- */
+/* PRODUCTOS */
+/* -------------------- */
+
+.producto {
+  height: 100vh;
+}

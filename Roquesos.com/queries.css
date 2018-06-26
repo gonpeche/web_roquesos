@@ -1,0 +1,16 @@
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    h1 {
+      font-size: 350%;
+    }
+
+    h2 {
+      font-size: 130%;
+    }
+
+    a.btn {
+      display: inline-block;
+      font-size: 120%;
+    }
+  }
