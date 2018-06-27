@@ -37,7 +37,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 12px;
-  opacity: 1;
+  opacity: 0.9;
   transition: all .2s ease-in-out;
 }
 
@@ -128,19 +128,16 @@ hr {
 /* -------------------- */
 
 .nosotros {
-  position: relative;
   height: 100vh;
-  color: #f3f2f2;
-  text-transform: lowercase;
-  background-image: linear-gradient(to left, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(resources/img/nosotros8.jpg);
+  background-image: linear-gradient(to left, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(resources/img/black.jpg);
+  /* background-image: linear-gradient(to left, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url(resources/img/nosotros8.jpg); */
 }
-section {
-  position: relative;
-}
+
 h3 {
-  color: #fff;
+  color: rgb(250, 241, 241);
+  opacity: 0.9;
   text-shadow: none;
-  font-size: 300%;
+  font-size: 200%;
   letter-spacing: 4px;
   text-align: center;
   padding: 5%;
@@ -150,7 +147,7 @@ h3 {
 
 h3:after {
   display: block;
-  height: 2px;
+  height: 1px;
   background-color: rgb(218, 147, 42);
   content: "";
   width: 150px;
@@ -158,19 +155,37 @@ h3:after {
   margin-top: 30px;
 }
 
-
-.nosotros-historia {
-  position: relative;
-  width: 100%;
-}
-
-.nosotros li {
+/* .nosotros-historia li {
   list-style-type: none;
-  font-size: 23px;
+  font-size: 10px;
   text-shadow: 3px 3px 8px #000000;
   color: rgb(226, 220, 220);
-  padding-top: 22px;
   text-shadow: 4px;
+} */
+
+.flex-container {
+  /* width: 1000px; */
+  width: 80%;
+  height: 50%;
+  /* background-color: #fff; */
+  padding: 3px;
+  /* border: 0.2px solid #fff;  */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
+
+.flex {
+  color: rgb(250, 241, 241);
+  opacity: 0.75;
+  margin: 0;
+  width: 28%;
+  /* background-color: #E67E22; */
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 19px;
+  /* text-align: center; */
+}
+
 
 
