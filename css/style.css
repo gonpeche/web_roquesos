@@ -221,7 +221,7 @@ p {
 }
 @media screen and (max-width: 992px) {
   #fh5co-home .flexslider .fh5co-text h1 {
-    font-size: 100px;
+    font-size: 85px;
   }
 }
 #fh5co-home .flexslider .fh5co-text h2 {
@@ -366,9 +366,9 @@ p {
   content: "";
   position: absolute;
   bottom: 0;
-  width: 40px;
+  width: 71px;
   height: 2px;
-  left: 50%;
+  left: 46%;
   background: #fb6e14;
   margin-left: -20px;
 }
@@ -553,14 +553,14 @@ p {
   color: #fff;
 }
 #fh5co-featured .fh5co-heading .heading:before, #fh5co-featured .fh5co-heading .heading::before {
-  height: 64px;
-  width: 64px;
+  height: 72px;
+  width: 120px;
   position: absolute;
   content: "";
   background: url(../images/0103-served-plate_64.png) no-repeat;
   top: 0;
-  left: 50%;
-  margin-top: -50px;
+  left: 45%;
+  margin-top: -56px;
   margin-left: -32px;
 }
 #fh5co-featured .fh5co-heading .sub-heading {
@@ -684,6 +684,7 @@ p {
 #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1 {
   background: #faebcd;
 }
+
 #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left:before, #fh5co-featured .fh5co-grid > .fh5co-v-half .fh5co-special-1.arrow-left::before {
   border-right: 15px solid #faebcd;
 }
