@@ -285,7 +285,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 400);
 
 					setTimeout(function() {
 						about.find('.to-animate-2').each(function( k ) {
@@ -296,7 +296,7 @@
 							},  k * 200, 'easeInOutExpo' );
 							
 						});
-					}, 200);
+					}, 50);
 
 					
 
