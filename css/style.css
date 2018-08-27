@@ -810,7 +810,7 @@ p {
 #fh5co-menus .fh5co-food-menu h2.fh5co-drinks {
   padding-left: 50px;
 }
-#fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
+/* #fh5co-menus .fh5co-food-menu h2.fh5co-drinks:before {
   background: url(../images/0301-pina-colada.png) no-repeat;
   content: "";
   position: absolute;
@@ -818,18 +818,18 @@ p {
   left: 0;
   width: 64px;
   height: 64px;
-}
+} */
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
   padding-left: 80px;
 }
-#fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
+/* #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
   background: url(../images/0302-steak.png) no-repeat;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 64px;
-  height: 45px;
+  height: 45px; */
 }
 #fh5co-menus .fh5co-food-menu ul {
   padding: 0;
