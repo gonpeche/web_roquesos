@@ -792,7 +792,7 @@ p {
 #fh5co-menus .fh5co-food-menu {
   float: left;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 6px;
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus .fh5co-food-menu {
