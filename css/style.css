@@ -255,6 +255,7 @@ p {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 #fh5co-home .flexslider .fh5co-overlay {
   position: absolute;
@@ -458,6 +459,7 @@ p {
 #fh5co-about .fh5co-bg {
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: -200px;
 }
 @media screen and (max-width: 1200px) {
   #fh5co-about .fh5co-bg {
