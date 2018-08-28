@@ -189,8 +189,9 @@ p {
  * Flexslider
  */
 #fh5co-home {
-  min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
+  min-height: 667.5px;
+  /* background: #fff url(../images/loader.gif) no-repeat center center; */
+  background: rgb(23, 21, 21) url(../images/loader.gif) no-repeat center center;
 }
 #fh5co-home .flexslider {
   border: none;
@@ -820,17 +821,17 @@ p {
   height: 64px;
 } */
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
-  padding-left: 80px;
+  padding-left: 20px;
 }
 /* #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
-  background: url(../images/0302-steak.png) no-repeat;
+  background: url(../images/cheese.png) no-repeat;
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 64px;
-  height: 45px; */
-}
+  height: 45px;
+} */
 #fh5co-menus .fh5co-food-menu ul {
   padding: 0;
   margin: 0;
@@ -1325,22 +1326,22 @@ p {
   left: 50%;
   margin-left: -54px;
   margin-top: -125px;
-  width: 104px;
+  width: 130px;
   height: 104px;
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
-  border-radius: 50%;
+  border-radius: 0%;
 }
 #fh5co-type h3.with-icon.icon-1:before, #fh5co-type h3.with-icon.icon-1::before {
-  background: url(../images/type-1.png) no-repeat center center;
+  background: url(../images/cheese.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
-  background: url(../images/type-2.png) no-repeat center center;
+  background: url(../images/salame.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-3:before, #fh5co-type h3.with-icon.icon-3::before {
-  background: url(../images/type-3.png) no-repeat center center;
+  background: url(../images/honey.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-4:before, #fh5co-type h3.with-icon.icon-4::before {
   background: url(../images/type-4.png) no-repeat center center;
