@@ -399,7 +399,9 @@ p {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -moz-flex-wrap: wrap;
-  background: #e6e6e6;
+  /* background: #211c1c; */
+  background: #130d08 url(../images/wood_1.png) repeat;
+
   width: 100%;
 }
 #fh5co-about .fh5co-2col {
