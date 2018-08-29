@@ -255,6 +255,7 @@ p {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-position: -321px 10px; */
 }
 
 #fh5co-about .fh5co-bg {
@@ -474,8 +475,22 @@ p {
   #fh5co-about .fh5co-bg {
     width: 100%;
     min-height: 300px;
+    /* background-size: contain; */
     background-position: bottom;
   }
+}
+
+@media screen and (max-width: 450px) {
+  #fh5co-about .fh5co-bg {
+    width: 100%;
+    min-height: 300px;
+    /* background-size: contain; */
+    background-position: 0px;
+  }
+  #fh5co-home {
+    min-height: 595px;
+  }
+
 }
 
 #fh5co-sayings {
