@@ -255,9 +255,16 @@ p {
 #fh5co-home .flexslider .slides li {
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-position: -321px 10px; */
+  /* background-position: -250px 0px; */
 }
 
+@media screen and (max-width: 450px) {
+  #fh5co-home .flexslider .slides li {
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background-position: 100px 0px;
+  }
+}
 #fh5co-about .fh5co-bg {
   background-position: -50px;
 }
@@ -1361,13 +1368,13 @@ p {
   background: url(../images/cheese.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-2:before, #fh5co-type h3.with-icon.icon-2::before {
-  background: url(../images/salame.png) no-repeat center center;
+  background: url(../images/salamin.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-3:before, #fh5co-type h3.with-icon.icon-3::before {
   background: url(../images/honey.png) no-repeat center center;
 }
 #fh5co-type h3.with-icon.icon-4:before, #fh5co-type h3.with-icon.icon-4::before {
-  background: url(../images/type-4.png) no-repeat center center;
+  background: url(../images/aceite.png) no-repeat center center;
 }
 #fh5co-type p {
   color: rgba(255, 255, 255, 0.7);
