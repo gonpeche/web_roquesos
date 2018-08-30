@@ -192,7 +192,7 @@
 
 					$('html, body').animate({
 			        	scrollTop: $('div[data-section="' + section + '"]').offset().top - topVal
-			    	}, 500);	
+			    	}, 600);	
 			    	
 			   }
 
