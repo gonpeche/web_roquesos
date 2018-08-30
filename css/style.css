@@ -867,7 +867,7 @@ p {
   margin: 0;
 }
 #fh5co-menus .fh5co-food-menu ul li {
-  padding: 0 0 20px 0;
+  padding: 0 0 10px 0;
   margin: 0 0 20px 0;
   border-bottom: 1px dotted #ccc;
   display: block;
@@ -877,7 +877,7 @@ p {
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc {
   clear: both;
   float: left;
-  width: 80%;
+  width: 100%;
 }
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > figure {
   width: 20%;
@@ -904,7 +904,8 @@ p {
   margin: 0;
 }
 #fh5co-menus .fh5co-food-menu ul li .fh5co-food-desc > div h3 {
-  margin: 0 0 10px 0;
+  margin: -15px 0px 0px 0px;
+  /* padding: 0 0 10px 0; */
   padding: 0;
   font-size: 20px;
   color: #000;
