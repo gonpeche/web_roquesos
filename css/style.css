@@ -851,7 +851,7 @@ p {
   height: 64px;
 } */
 #fh5co-menus .fh5co-food-menu h2.fh5co-dishes {
-  padding-left: 20px;
+  padding-left: 0px;
 }
 /* #fh5co-menus .fh5co-food-menu h2.fh5co-dishes:before {
   background: url(../images/cheese.png) no-repeat;
