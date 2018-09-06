@@ -523,6 +523,10 @@
 		}
 	};
 
+	function myFunction() {
+		document.getElementById("demo").innerHTML = "Hello World";
+	}
+
 	var footerAnimate = function() {
 		var footer = $('#fh5co-footer');
 		if ( footer.length > 0 ) {	
@@ -590,8 +594,6 @@
 		eventsAnimate();
 		reservationAnimate();
 		footerAnimate();
-
-		
 
 	});
 
