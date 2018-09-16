@@ -795,18 +795,18 @@ p {
 }
 
 #fh5co-menus {
-  padding: 7em 0;
+  padding: 1em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-menus {
-    padding: 5em 0;
+    padding: 1em 0;
   }
 }
 #fh5co-menus .fh5co-heading .heading {
   position: relative;
   padding-top: 30px !important;
 }
-#fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
+/* #fh5co-menus .fh5co-heading .heading:before, #fh5co-menus .fh5co-heading .heading::before {
   height: 64px;
   width: 64px;
   position: absolute;
@@ -816,7 +816,7 @@ p {
   left: 50%;
   margin-top: -50px;
   margin-left: -32px;
-}
+} */
 #fh5co-menus .fh5co-heading .sub-heading {
   color: #a99c92;
 }
@@ -1312,7 +1312,7 @@ p {
 }
 
 #fh5co-type {
-  padding: 7em 0;
+  padding: 2em 0;
   background-color: transparent;
   background-size: cover;
   background-attachment: fixed;
